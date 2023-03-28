@@ -175,3 +175,44 @@ body,
   text-align: center;
   font-size: 0.8em;
 }
+
+/* book details */
+.header {
+  padding: 20px;
+  text-align: center;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 75%;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.detail.font {
+  font-weight: bold;
+}
+
+.detail.btn {
+  margin-left: 1rem;
+}
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
