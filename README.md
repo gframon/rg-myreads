@@ -26,7 +26,7 @@ The build is minified and the filenames include the hashes.<br />
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-To learn more about the Drag and Drop functionality go to the [Moz://a](https://developer.mozilla.org/en-US/docs/Web/API/DataTransfer/setData) website and also [this](https://medium.com/unlearninglabs/reactjs-implement-drag-and-drop-feature-without-using-external-libraries-ad8994429f1a) example by ** Rajesh Pillai **.
+To learn more about the Drag and Drop functionality go to the [Moz://a](https://developer.mozilla.org/en-US/docs/Web/API/DataTransfer/setData) website and also [this](https://medium.com/unlearninglabs/reactjs-implement-drag-and-drop-feature-without-using-external-libraries-ad8994429f1a) example by ** Rajesh Pillai ** .
 
-To learn more about how to handle invalid links using React Router visit [here](https://ui.dev/react-router-handling-404-pages)
-Also on how to create a custom 404 page visit [here](https://www.makeuseof.com/react-router-404-page-create/)
+To learn more about how to handle invalid links using React Router visit [here](https://ui.dev/react-router-handling-404-pages).
+Also on how to create a custom 404 page visit [here](https://www.makeuseof.com/react-router-404-page-create/).

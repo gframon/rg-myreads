@@ -32,7 +32,7 @@ const Book = ({ book, onShelfChange, prevPage = '/' }) => {
             value={'shelf' in book ? book.shelf : 'none'}
             onChange={handleShelfChange}
           >
-            <option value='none' disabled>
+            <option value='default' disabled>
               Move to...
             </option>
             <option value='currentlyReading'>Currently Reading</option>
