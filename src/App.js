@@ -5,6 +5,7 @@ import * as BooksAPI from './BooksAPI';
 import Shelves from './components/Shelves';
 import SearchBooks from './components/SearchBooks';
 import BookDetails from './components/BookDetails';
+import NotFound from './components/NotFound';
 
 function App() {
   const [books, setBooks] = useState([]);
@@ -30,6 +31,7 @@ function App() {
   return (
     <div className='app'>
       <Routes>
+        <Route path='*' element={<NotFound />} />
         <Route
           exact
           path='/'
